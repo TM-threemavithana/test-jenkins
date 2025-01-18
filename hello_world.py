@@ -1,11 +1,2 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
-}
+# hello_world.py
+print("Hello, World!")
